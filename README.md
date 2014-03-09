@@ -1,8 +1,10 @@
 # wilg/dotfiles
 
-My fork of [holman/dotfiles](http://github.com/holman/dotfiles)
+My fork of [holman/dotfiles](http://github.com/holman/dotfiles).
 
 I've made some changes for sublime text 3 and removed some wacky things.
+
+Make sure to change Terminal's default shell `/bin/zsh`.
 
 ## readme for holman/dotfiles
 
