@@ -1,6 +1,6 @@
-# holman does dotfiles
+# wilg/dotfiles
 
-## dotfiles
+### From @holman/dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
 
@@ -19,7 +19,7 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/wilg/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
