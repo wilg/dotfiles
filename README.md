@@ -1,6 +1,10 @@
 # wilg/dotfiles
 
-### From @holman/dotfiles
+My fork of [holman/dotfiles](http://github.com/holman/dotfiles)
+
+I've made some changes for sublime text 3 and removed some wacky things.
+
+## readme for holman/dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
 
