@@ -1,2 +1,2 @@
 # http://postgresapp.com
-PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
