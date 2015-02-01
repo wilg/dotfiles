@@ -39,4 +39,8 @@ done
 
 unset config_files
 
+# Fix rake arguments
+# http://robots.thoughtbot.com/how-to-use-arguments-in-a-rake-task
+unsetopt nomatch
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
