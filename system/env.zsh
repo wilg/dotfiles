@@ -1,5 +1,5 @@
-export EDITOR='subl'
-export GIT_EDITOR='subl -w'
+export EDITOR='code'
+export GIT_EDITOR='code --wait'
 
 # # Invoke GnuPG-Agent the first time we login.
 # # Does `~/.gpg-agent-info' exist and points to gpg-agent process accepting signals?
