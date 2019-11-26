@@ -1,9 +1,14 @@
 if [ -f "bin/dev" ]; then
   bin/dev
 elif [ -f "bin/helltool" ]; then
+  echo -e "[dev] \e[2mbin/helltool start\e[0m"
   bin/helltool start
 elif [ -f "yarn.lock" ]; then
+  echo -e "[dev] \e[2myarn start\e[0m"
   yarn start
+elif [ -f "config/puma.rb" ]; then
+  echo -e "[dev] \e[2mrails server\e[0m"
+  rails server
 else
-  echo "Don't know how to develop in this folder. Add a `bin/dev` file, or a yarn start command."
+  echo -e "[dev] \e[31mDon't know how to develop in this folder. Add a bin/dev file, or a yarn start command.\e[0m"
 fi
